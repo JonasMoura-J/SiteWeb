@@ -64,10 +64,21 @@ form div {
 }
 
 div.body {
-  height: 80vh;
+  height: 71.2vh;
+  width: 78 vw;
   padding: 3%;
+  margin: auto;
 }
 
 div.botao {
   margin-left: auto;  
+}
+
+footer {
+  background-color: #333;
+  padding-top: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color:#fff;
 }

@@ -56,4 +56,19 @@ input[type="submit"]:hover {
   background-color: #333;
 }
 
-  
+#map {
+  height: 400px;
+}
+
+.div-do-mapa {
+  height: 83.4vh;
+}
+
+footer {
+  background-color: #333;
+  padding-top: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color:#fff;
+}

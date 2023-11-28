@@ -47,4 +47,22 @@ body {
     border-bottom: 2px solid #fff;
     padding-bottom: 3px;
   }
-  
+
+  div.barra1, div.barra2{
+    background-color: orange;
+    margin-top: 50px;
+    color: white;
+}
+
+div.barra1{
+    color: orange;
+}
+
+img.principal {
+    width: 98%;
+}
+
+.titulo{
+  text-align: center;
+  padding: 40px;
+}
