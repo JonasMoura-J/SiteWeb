@@ -1,0 +1,50 @@
+.contato {
+    list-style: none;
+    padding: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.orgao{
+    vertical-align: middle;
+}
+
+.orgao p{
+    font-size:16px;
+    text-align: center;
+}
+
+.contato a{
+    color:black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .header div {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .header a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+  }
+  
