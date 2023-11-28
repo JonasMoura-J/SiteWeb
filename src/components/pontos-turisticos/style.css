@@ -52,8 +52,6 @@ input[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
-input[type="submit"]:hover {
-  background-color: #333;
-}
-
-  
+.video{
+  text-align: center;
+} 

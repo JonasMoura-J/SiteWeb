@@ -6,9 +6,7 @@ var locaisDeHospedagem = [
 
 var map = L.map('map').setView([ -22.4343485, -42.9751807], 13);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
-}).addTo(map);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 locaisDeHospedagem.forEach(function(local) {
     var marker = L.marker([local.lat, local.lon]).addTo(map);
