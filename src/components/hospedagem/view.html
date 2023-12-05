@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../global.css">
-        <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-        <title>Hospedagem</title>
-    </head>
 
-        <body>
-            <!-- HEADER -->
-            <header class="header">
-                <div><a href="../dashboard/index.html">Inicio</a></div>
-                <div><a href="../quem-somos/view.html">Quem somos</a></div>
-                <div><a href="#">Hospedagem</a></div>
-                <div><a href="../contato/view.html">Contatos</a></div>
-                <div><a href="../pontos-turisticos/view.html">Pontos Turisticos</a></div>
-            </header>
-            <div class="div-do-mapa">
-                <div id="map"></div>
-                <div class="h2h2">
-                    <h4>Explore o mapa em busca do lugar ideal para você e sua família desfrutarem de uma estadia perfeita!</h4>
-                </div>
-                <div class="imgs">
-                    <img src="../../assets/images/img-hospedages/hotel-willisau.jpg" alt="hotel-willisau" id="wil">
-                    <img src="../../assets/images/img-hospedages/athos-hotel.jpg" alt="athos-hotel" id="ath">
-                    <img src="../../assets/images/img-hospedages/Intercity.jpg" alt="intercity" id="int">
-                </div>
-            </div>
-            <footer>
-                <div class="orgao">
-                    <p>&copy; 2020. Teresopolis Adventure</p>
-                </div>
-                <div class="">
-                    <ul class="contato" id="contato">
-                        <li>Telefone: (21)2643-3036</li>
-                        <li>Email: tereadventure@gmail.com</li>
-                    </ul>
-                </div>
-            </footer>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <title>Hospedagem</title>
+</head>
 
-            <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-            <script src="./index.js"></script>
-        </body>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div><a href="../dashboard/index.html">Inicio</a></div>
+        <div><a href="../quem-somos/view.html">Quem somos</a></div>
+        <div><a href="#">Hospedagem</a></div>
+        <div><a href="../contato/view.html">Contatos</a></div>
+        <div><a href="../pontos-turisticos/view.html">Pontos Turisticos</a></div>
+    </header>
+    <div style="width: 100%">
+        <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=R.%20Ernesto%20Sanso%C3%A9,%20143%20-%20Alto,%20Teres%C3%B3polis%20-%20RJ,%2025961-280+(Hotel%20Willisau)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            <a href="https://www.maps.ie/population/">                
+                Find Population on Map
+            </a>
+        </iframe>
+    </div>
+    <footer>
+        <div class="orgao">
+            <p>&copy; 2020. Teresopolis Adventure</p>
+        </div>
+        <div class="">
+            <ul class="contato" id="contato">
+                <li>Telefone: (21)2643-3036</li>
+                <li>Email: tereadventure@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="./index.js"></script>
+</body>
+
 </html>

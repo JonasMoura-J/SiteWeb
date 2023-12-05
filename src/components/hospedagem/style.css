@@ -87,3 +87,12 @@ img:hover {
   height: 33vh;
   width: 27vw;
 }
+
+footer {
+  background-color: #333;
+  padding-top: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color:#fff;
+}
